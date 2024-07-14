@@ -13,6 +13,10 @@ Welcome to **Intellicare**, the revolutionary platform transforming healthcare w
 ---
 
 <a name="Medichat"></a>
+
+https://github.com/user-attachments/assets/70cb5ebe-1ac7-4104-a813-37b70a329336
+
+
 ## Medichat 💬💊
 **Medichat** enhances your medical experience by processing prescriptions and providing detailed information about medications using cutting-edge OCR technology and generative AI.
 
