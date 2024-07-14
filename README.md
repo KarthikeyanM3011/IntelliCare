@@ -31,23 +31,12 @@ Welcome to **Intellicare**, the revolutionary platform transforming healthcare w
 
 ### RecordScan:
 - **Medical Report Upload**: Users can upload their medical reports.
+- **Multi-Language Translation**: Allows translation of medicine details into multiple languages.
 - **Insight Extraction**: Provides detailed insights into the medical report, helping users understand their health better.
 
 ### RecordQuery:
 - **Report Storage**: Uses vector databases to securely store medical reports.
 - **Query Answering**: Acts as a Retrieval-Augmented Generation (RAG) model to answer user queries based on their specific medical report, ensuring confidentiality and accuracy.
-
----
-
-<a name="About-Us"></a>
-## About Us 👨‍💻🌐
-Meet the talented team behind **Intellicare**:
-
-- **Karthikeyan M**: [LinkedIn](https://www.linkedin.com/in/karthikeyan-m30112004/) | [GitHub](https://github.com/KarthikeyanM3011)
-- **Barath Raj P**: [LinkedIn](https://www.linkedin.com/in/barathrajp/) | [GitHub](https://github.com/Barathaj)
-- **Arun Kumar R**: [LinkedIn](https://www.linkedin.com/in/arun-kumar-99b841255/) | [GitHub](https://github.com/ArunKumar200510)
-
-Contact us for collaborations, queries, or more information!
 
 ---
 
@@ -60,15 +49,54 @@ Contact us for collaborations, queries, or more information!
 
 Join us in revolutionizing healthcare delivery and improving patient outcomes with **Intellicare**. 🚀💊👨‍⚕️
 
-**Built With**:
-- **Frontend & Backend**: Streamlit
-- **Machine Learning Models**: PyTorch, TensorFlow
-- **OCR**: Keras-OCR
-- **Semantic Understanding**: Langchain
+### Built With 🛠️
+
+Our application leverages the following technologies:
+
+- **Frontend & Backend**:
+  - Streamlit
+
+- **Machine Learning & AI**:
+  - transformers
+  - tensorflow==2.15.1
+  - sentence-transformers
+  - HuggingFace
+
+- **Natural Language Processing**:
+  - spacy
+  - langchain
+
+- **Optical Character Recognition**:
+  - opencv-python
+  - keras-ocr
+
+- **Data Handling & Storage**:
+  - pandas
+  - numpy
+  - pinecone
+  - requests
+  - PyPDF2
+
+- **Translation & Speech**:
+  - googletrans==3.1.0a0
+  - gtts
+    
 
 **Datasets**:
 - Optical Character Recognition: [Keras-OCR](https://keras-ocr.readthedocs.io/en/latest/)
 - Medicine : [Kaggle](https://www.kaggle.com/datasets/shudhanshusingh/250k-medicines-usage-side-effects-and-substitutes)
+
+---
+
+<a name="About-Us"></a>
+## About Us 👨‍💻🌐
+Meet the talented team behind **Intellicare**:
+
+- **Karthikeyan M**: [LinkedIn](https://www.linkedin.com/in/karthikeyan-m30112004/) | [GitHub](https://github.com/KarthikeyanM3011)
+- **Barath Raj P**: [LinkedIn](https://www.linkedin.com/in/barathrajp/) | [GitHub](https://github.com/Barathaj)
+- **Arun Kumar R**: [LinkedIn](https://www.linkedin.com/in/arun-kumar-99b841255/) | [GitHub](https://github.com/ArunKumar200510)
+
+Contact us for collaborations, queries, or more information!
 
 ---
 
