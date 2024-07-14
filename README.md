@@ -17,8 +17,15 @@ Welcome to **Intellicare**, the revolutionary platform transforming healthcare w
 https://github.com/user-attachments/assets/70cb5ebe-1ac7-4104-a813-37b70a329336
 
 
-## Medichat 💬💊
-**Medichat** enhances your medical experience by processing prescriptions and providing detailed information about medications using cutting-edge OCR technology and generative AI.
+
+## WorkFlow
+
+
+![workflow](https://github.com/user-attachments/assets/ad363353-15a3-4f24-822b-8841f4f1a647)
+
+
+## Intellicare 💬💊
+**Intellicare** enhances your medical experience by processing prescriptions and providing detailed information about medications using cutting-edge OCR technology and generative AI.
 
 ### Features:
 - **Prescription Upload**: Users can upload their prescription documents.
