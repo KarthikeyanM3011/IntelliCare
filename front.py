@@ -59,7 +59,7 @@ def img_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Load and display sidebar image with glowing effect
-img_path = "E:\Aventus 2,0\Aventus 2,0\Intellicare.png"
+img_path = "./Intellicare.png"
 img_base64 = img_to_base64(img_path)
 st.sidebar.markdown(
     f'<img src="data:image/png;base64,{img_base64}" class="cover-glow">',
@@ -267,7 +267,7 @@ def home():
         for i in df['Text']:
             ocr.append(i)
         def search(prescription):
-            ocr_med=pd.read_csv("E:\Aventus 2,0\Aventus 2,0\ocr_lower.csv")
+            ocr_med=pd.read_csv("./ocr_lower.csv")
             extracted_medicines = []
             for word in prescription:
                 if word.lower() in ocr_med['Medicine'].values:
@@ -304,8 +304,8 @@ def home():
                 return image_url[0]
             return default_image
         def geturl(q):
-            api_key = "AIzaSyBdlN72Py11hJLSiflzzcp9MAZRv0e03pI"
-            search_engine_id = "06e713d09dbd14dbc"
+            api_key = "Your_Api_Key"
+            search_engine_id = "Your_Engine_Id"
             query=f'{q} medicine uses,side effects and other details'
             url = f"https://www.googleapis.com/customsearch/v1?key={api_key}&cx={search_engine_id}&q={query}"
             response = requests.get(url)
@@ -328,8 +328,6 @@ def home():
         for med in medicine_name:
             with st.expander(med.upper()):
                 prompts = generate_prompts(med)
-                # with st.chat_message("user"):
-                #     st.write(med)
                 pro.append(med)
                 with st.chat_message("assistant"):
                     for prompt_type, prompt_text in prompts.items():
@@ -341,8 +339,6 @@ def home():
                             response_placeholder = st.empty()
                             question_placeholder.markdown(f"**Question:** {prompt_text}")
                             response_placeholder.markdown(f"**Answer:** {response}")
-                            # st.markdown(f"**Question:** {prompt_text}")              
-                            # st.markdown(f"**Answer:** {response}")
                             placeholders.append((question_placeholder, response_placeholder))
                             st.write("")
                     st.write("-----------------------------------------------------------------")
