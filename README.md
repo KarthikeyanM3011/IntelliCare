@@ -10,3 +10,4 @@ This project automates the extraction of medical information from images and tex
 - **NER Model**: Named Entity Recognition for accurate medicine name extraction.
 - **LLM Integration**: Utilizes Mixtral-8x7B for advanced natural language processing tasks.
 - **Web Scraping**: Collects and processes medical data from diverse sources for training.
+https://youtu.be/6XsVV7SUHUk?feature=shared
